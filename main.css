@@ -5,6 +5,7 @@ body {
     width: auto;
 }
 
+
 button {
     border: 0;
     border-radius: 5px;
@@ -23,17 +24,40 @@ button:hover {
     background: var(--tg-theme-secondary-bg-color);
 }
 
-#form {
-    display: none;
-    text-align: center;
+input {
+background-color: var(--tg-theme-bg-color);
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #373b47;
+    border-radius: 10px;
+}
+.user_name {
+
+    position: relative;
+    top: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
 
 .styled-text {
     color: #b4b8c4;
 }
 
 p {
+    margin: -1px;
     color: var(--tg-theme-text-color);
+}
+
+.p-styled {
+  margin: -1px;
+  text-align: center;
+  color: #979dab;
 }
 
 .main {
@@ -41,6 +65,7 @@ p {
   gap: 35px;
   justify-content: space-between;
   width: auto;
+
 }
 
 .div2 {
@@ -48,7 +73,8 @@ p {
   flex-direction: column;
 }
 
-.p-styled {
-  margin: -1px;
-  text-align: center;
+
+
+div {
+  margin: 0 0 8.5px;
 }
