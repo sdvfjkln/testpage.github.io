@@ -3,20 +3,23 @@ body {
     color: var(--tg-theme-text-color);
     background: var(--tg-theme-bg-color);
     width: auto;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 @font-face {
     font-family: Cuprum; /* Гарнитура шрифта */
     src: url(./fonts/Cuprum-Bold.ttf); /* Путь к файлу со шрифтом */
-   }
-
+}
+@font-face {
+    font-family: noto_sans; /* Гарнитура шрифта */
+    src: url(./fonts/noto-sans-bold.ttf); /* Путь к файлу со шрифтом */
+}
 
 button {
     border: 0;
     border-radius: 5px;
     margin-top: 0px;
-    height: 50px;
+    height: 60px;
     width: 100%;
     font-size: 20px;
     font-weight: 500;
@@ -47,30 +50,42 @@ color: white;
     height: 90px;
 }
 .user_name {
-    width: 250px;
+    width: 85%;
     position: relative;
     top: 5px;
-    left: 5px;
-    padding: 5px;
+    left: 15px;
+    padding: 12px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
-.label {
-    position: relative;
-    top: 5px;
-    left: 5px;
+
+.from_label {
+    margin: 0 0 8px 0;
+}
+
+.label2 {
     align-self: flex-start;
     justify-self: flex-start;
-    margin: 0 0 5px 0;
-    color: white;
+    top: -2.5px;
+    font-family: noto_sans;
+    position: relative;
+    color: var(--tg-theme-text-color);
 }
 
-.styled-text {
-    color: #b4b8c4;
+.label {
+    font-family: noto_sans;
+    position: relative;
+    top: 7px;
+    left: 15px;
+    align-self: flex-start;
+    justify-self: flex-start;
+    margin: 0 0 7px 0;
+    color: var(--tg-theme-text-color);
 }
+
 
 p {
-    font-family: Cuprum;
+    font-family: noto_sans;
     margin: -1px;
     color: var(--tg-theme-text-color);
     text-align: center;
