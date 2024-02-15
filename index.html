@@ -32,6 +32,11 @@
         });
 
         order.addEventListener("click", () => {
+            let name = document.getElementById("user_name");
+            let data = {
+            name: name
+            };
+            tg.sendData(JSON.stringify(data));
             tg.close();
         });
 
