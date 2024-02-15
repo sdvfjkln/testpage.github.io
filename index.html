@@ -15,7 +15,26 @@
         <p>Текст</p>
         <button id="submit">Кнопка</button>
     </div>
+    <form id="form">
+        <input type="text" placeholder="Имя" id="user_name">
+        <button id="order">Отправить</button>
+    </form>
 
+    <script>
+        let tg = window.Telegram.WebApp;
+        let buy = document.getElementById("buy");
+        let order = document.getElementById("order");
 
+        buy.addEventListener("click", () => {
+            document.getElementById("main").style.display = "none";
+            document.getElementById("form").style.display = "block";
+            document.getElementById("user_name").value = tg.initData.user.first_name;
+        });
+
+        order.addEventListener("click", () => {
+            tg.close();
+        });
+
+    </script>
 </body>
 </html>
