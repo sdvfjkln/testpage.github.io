@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    <div class="main">
+    <div class="main" >
         <div class="main">
             <div class="div2">
                 <p class="p-styled">Белки</p>
@@ -29,7 +29,6 @@
             </div>
         </div>
 
-
         <div class="2">
             <div style="" class="div2">
                 <p>Ккал</p>
@@ -39,29 +38,58 @@
 
     </div>
 
-    <div id="main_form">
+    <div class="from_label">
+        <div class="form_label">
+            <p class="label">Добавление продукта</p>
+        </div>
+    </div>
+
+        <!--<div class="main_diary">
+            <div class="diary">
+                <form class="form">
+                </form>
+            </div>
+        </div>-->
+
+    <div class="main_form">
+        <div class="form">
+            <form class="form">
+                <p class="label">Название продукта</p>
+                <input autocomplete="off" type="number" placeholder="Название продукта (необязательно)" class="user_name" id="name">
+            </form>
+        </div>
+
         <div class="form">
             <form class="form">
                 <p class="label">Белки</p>
-                <input type="text" placeholder="Всего белков (граммы)" class="user_name">
+                <input autocomplete="off" type="number" placeholder="Всего белков (граммы)" class="user_name" id="prots">
             </form>
         </div>
 
         <div class="form">
             <form class="form">
                 <p class="label">Жиры</p>
-                <input type="text" placeholder="Всего жиров (граммы)" class="user_name">
+                <input autocomplete="off" type="number" placeholder="Всего жиров (граммы)" class="user_name" id="fats">
             </form>
         </div>
 
         <div class="form">
             <form class="form">
                 <p class="label">Углеводы</p>
-                <input type="text" placeholder="Всего жиров (граммы)" class="user_name">
+                <input autocomplete="off" type="number" placeholder="Всего жиров (граммы)" class="user_name" id="carbs">
             </form>
         </div>
 
-        <button id="order">Отправить</button>
+        <div class="form">
+            <form class="form">
+                <p class="label">Калории</p>
+                <input autocomplete="off" type="number" placeholder="Всего калорий" class="user_name" id="kkals">
+            </form>
+        </div>
+
+        <div>
+            <button id="order">Отправить</button>
+        </div>
     </div>
     <script src="./index.js"></script>
 </body>
