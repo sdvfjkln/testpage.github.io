@@ -2,7 +2,7 @@ body {
     font-weight: 200;
     color: var(--tg-theme-text-color);
     background: var(--tg-theme-bg-color);
-    display: flex;
+    width: auto;
 }
 
 button {
@@ -39,7 +39,8 @@ p {
 .main {
   display: flex;
   gap: 100px;
-  justify-content: space-between
+  justify-content: space-between;
+  width: auto;
 }
 
 .div2 {
