@@ -5,6 +5,11 @@ body {
     width: auto;
 }
 
+@font-face {
+    font-family: Cuprum; /* Гарнитура шрифта */
+    src: url(./fonts/Cuprum-Bold.ttf); /* Путь к файлу со шрифтом */
+   }
+
 
 button {
     border: 0;
@@ -59,6 +64,7 @@ background-color: var(--tg-theme-bg-color);
 }
 
 p {
+    font-family: Cuprum;
     margin: -1px;
     color: var(--tg-theme-text-color);
 }
