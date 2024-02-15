@@ -16,8 +16,8 @@ button {
     font-weight: 500;
     cursor: pointer;
     transition: all 500ms ease;
-    color: var(--tg-theme-button-text-color)
-    background: var(--tg-theme-button-color);
+    color: black;
+    background: #27cf70;
 }
 
 button:hover {
@@ -31,19 +31,28 @@ background-color: var(--tg-theme-bg-color);
 .form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     background-color: #373b47;
     border-radius: 10px;
+    height: 90px;
 }
 .user_name {
-
+    width: 250px;
     position: relative;
-    top: 10px;
+    top: 5px;
+    left: 5px;
     padding: 5px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
-
+.label {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    align-self: flex-start;
+    justify-self: flex-start;
+    margin: 0 0 5px 0;
+}
 
 .styled-text {
     color: #b4b8c4;
