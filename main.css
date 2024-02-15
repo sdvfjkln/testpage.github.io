@@ -38,7 +38,7 @@ p {
 
 .main {
   display: flex;
-  gap: 100px;
+  gap: 35px;
   justify-content: space-between;
   width: auto;
 }
