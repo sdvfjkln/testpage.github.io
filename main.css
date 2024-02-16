@@ -1,7 +1,7 @@
 body {
     font-weight: 200;
     color: var(--tg-theme-text-color);
-    background: var(--tg-theme-bg-color);
+    background: #111315;
     width: auto;
     overflow: hidden;
 }
@@ -16,7 +16,10 @@ body {
 }
 
 button {
+    position: fixed;
+    bottom: 0px;
     border: 0;
+    left: 0;
     border-radius: 5px;
     margin-top: 0px;
     height: 60px;
@@ -24,9 +27,10 @@ button {
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
-    transition: all 500ms ease;
-    color: black;
-    background: #27cf70;
+    transition: all 400ms ease;
+    color: white;
+    background: #b277fc;
+
 }
 
 button:hover {
@@ -45,7 +49,7 @@ color: white;
     display: flex;
     flex-direction: column;
     align-items: left;
-    background-color: #373b47;
+    background-color: #1c2023;
     border-radius: 10px;
     height: 90px;
 }
@@ -69,7 +73,7 @@ color: white;
     top: -2.5px;
     font-family: noto_sans;
     position: relative;
-    color: var(--tg-theme-text-color);
+    color: white;
 }
 
 .label {
@@ -80,14 +84,14 @@ color: white;
     align-self: flex-start;
     justify-self: flex-start;
     margin: 0 0 7px 0;
-    color: var(--tg-theme-text-color);
+    color: white;
 }
 
 
 p {
     font-family: noto_sans;
     margin: -1px;
-    color: var(--tg-theme-text-color);
+    color: white;
     text-align: center;
 }
 
