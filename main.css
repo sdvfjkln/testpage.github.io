@@ -3,7 +3,7 @@ body {
     color: var(--tg-theme-text-color);
     background: #111315;
     width: auto;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 @font-face {
@@ -43,8 +43,15 @@ color: white;
 
 }
 .main_form {
-    /*display: none;*/
+    display: none;
 }
+
+.canv {
+    background: #1c2023;
+    border-radius: 7px;
+    height: 100%;
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -53,6 +60,7 @@ color: white;
     border-radius: 10px;
     height: 90px;
 }
+
 .user_name {
     width: 85%;
     position: relative;
@@ -103,11 +111,13 @@ p {
 }
 
 .main {
-  display: none;
-  gap: 35px;
+  display: flex;
+  gap: 21px;
   justify-content: space-between;
   width: auto;
   margin: 0 0 -1px 0;
+  font-size: 14px;
+
 }
 
 .div2 {
