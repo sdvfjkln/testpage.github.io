@@ -72,7 +72,7 @@ function calculateTotalKkal() {
 
 // Данные, которые мы хотим передать
 const requestData = {
-    user_id: tg.WebAppUser.id // Пример user_id
+    user_id: window.Telegram.WebAppUser.id // Пример user_id
 };
 
 // Опции запроса
